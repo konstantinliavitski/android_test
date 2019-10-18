@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="-13dp"
+        android:src="@drawable/endgame_poster_og_social_rop"
+
+        />
+
+    <ImageView
+        android:layout_width="721dp"
+        android:layout_height="198dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/war_wallpaper_savengers"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="-200dp"
+        android:text="@string/title_text"
+        android:textColor="#E91E63" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Released_text"
+        android:textColor="#7B1FA2"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/April_text"
+        android:layout_marginTop="-19dp"
+        android:layout_marginLeft="200dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="-10dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/Overview_text"
+        android:textColor="#388E3C" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/Star_Wars_text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/total_text"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/second_text"
+        />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="-220dp"
+        android:text="MOVIE TRAILER"
+        android:textSize="10sp" />
+
+
+
+
+</LinearLayout>
